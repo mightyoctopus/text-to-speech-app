@@ -18,4 +18,5 @@ If you want to add more languages to supoort from the app, you can add more IETF
             <option value="fr-FR">French</option>
             <option value="ja-JP">Japanese</option>
             <option value="ko-KR">Korean</option>
+            /* More tags as you wish.*/
   </select> 
