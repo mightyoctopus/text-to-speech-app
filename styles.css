@@ -1,0 +1,60 @@
+:root {
+    --primary-color:#f0f0f0;
+    --secondary-color: #4a90e2;
+    --teriary-color: #d9b44a;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: "Open Sans";
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+}
+
+#textInput {
+    height: 20vh;
+    width: 70vw;
+    border-radius: 7px;
+}
+
+#language-option {
+    margin-top: 20px;
+    width: 20vw;
+}
+
+button {
+    margin-top: 7px;
+    width: 20vw;
+    height: 30px;
+    background-color: var(--secondary-color);
+    color: #f0f0f0;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+
+
+
+/* 
+Primary Color
+Light Grey: #f0f0f0
+Secondary Color
+Soft Blue: #4a90e2 (for buttons, links, and accents)
+Tertiary Color
+Warm Beige: #d9b44a (for highlights, secondary buttons, or subtle background elements)
+*/
